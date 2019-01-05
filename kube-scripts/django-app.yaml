@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api
-        image: manoj1992/demo-app:2.0
+        image: "$DOCKER_IMAGE"
         ports:
         - containerPort: 9001
