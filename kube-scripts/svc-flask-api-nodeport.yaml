@@ -5,7 +5,8 @@ metadata:
 spec:
   selector:
     app: api
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
+    nodePort: 30300
     targetPort: 9001
